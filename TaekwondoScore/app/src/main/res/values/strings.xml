@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Taekwondo Score</string>
+    <string name="torso_point">Torso: 1 point</string>
+    <string name="head_neak_point">Head or neak: 2 points</string>
+    <string name="knock_down">Knock-down: 3 points</string>
+    <string name="contender_a">Fighter A</string>
+    <string name="contender_b">Fighter B</string>
+    <string name="current_points">0</string>
+    <string name="reset">reset</string>
+    <string name="foul">Foul: -1</string>
+    <string name="no_fouls">Fouls</string>
+</resources>
