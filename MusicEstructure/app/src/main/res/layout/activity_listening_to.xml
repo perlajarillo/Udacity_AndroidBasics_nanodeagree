@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context="com.example.android.musicestructure.ListeningToActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/back"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imghome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/home" />
+
+        <TextView
+            style="@style/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_listeningto" />
+
+        <TextView
+            style="@style/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listening_to_description" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="@dimen/img_listening_size"
+            android:layout_height="@dimen/img_listening_size"
+            android:layout_gravity="center"
+            android:src="@drawable/thedo" />
+    </LinearLayout>
+</ScrollView>

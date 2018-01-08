@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.android.musicestructure.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_main" />
+
+        <TextView
+            style="@style/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_description" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgfind"
+                style="@style/imgStyle"
+                android:src="@drawable/search" />
+
+            <ImageView
+                android:id="@+id/imglistening"
+                style="@style/imgStyle"
+                android:src="@drawable/listening" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imghistory"
+                style="@style/imgStyle"
+                android:src="@drawable/historymusic" />
+
+            <ImageView
+                android:id="@+id/imgfavorites"
+                style="@style/imgStyle"
+                android:src="@drawable/favorites" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgcollection"
+                style="@style/imgStyle"
+                android:src="@drawable/collection" />
+
+            <ImageView
+                android:id="@+id/imgpayment"
+                style="@style/imgStyle"
+                android:src="@drawable/payment" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

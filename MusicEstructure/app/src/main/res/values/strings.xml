@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MusicEstructure</string>
+    <string name="find_music_description">This activity has the purpose to help the user find music. The SearchView will allow to write the name of the artist or the song, the coincidences will be showed at the ListView, if there are some.</string>
+    <string name="listening_to_description">This activity has the purpose to show what music is the user listening to. The idea is to show an image from the artist album and the controls to play, pause and stop the reproduction.</string>
+    <string name="favorite_description">This activity has the purpose to show the user\'s favorite artists.</string>
+    <string name="history_description">This activity has the purpose to show the music history (songs played recently).</string>
+    <string name="collection_description">This activity has the purpose to show the user\'s music collection.</string>
+    <string name="payment_description">This activity has the purpose to complete the payment.It could be used the Android Pay API, there is a tutorial available on https://developers.google.com/android-pay/tutorial to learn how to implement it.
+         \n\n 1. You first must configure your project, defining in the build.gradle file in the app module the dependency of play-services-wallet. Also, you must Modify your Manifest, adding the Android Pay meta-data.
+         \n\n 3. It will be necesary to code the constants, verify if the user is ready to pay, request a payment token, create a Masked Wallet request.
+         \n\n 4. Add a purchase button with WalletFragment.
+         \n\n 5. Handle errors.
+ </string>
+    <string name="main_description">This is the main activity. The purpose is to show the bottoms to navegate in the app.</string>
+    <string name="title_activity_payment">Payment Activity</string>
+    <string name="title_activity_findmusic">Find Music</string>
+    <string name="title_activity_collection">Music Collection</string>
+    <string name="title_activity_historymusic">Music History</string>
+    <string name="title_activity_listeningto">Listening to...</string>
+    <string name="title_activity_favorites">Favorites</string>
+    <string name="title_activity_main">Home</string>
+</resources>
