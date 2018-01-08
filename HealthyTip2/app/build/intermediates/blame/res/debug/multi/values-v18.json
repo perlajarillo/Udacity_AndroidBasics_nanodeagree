@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\PTC2\\AndroidStudioProjects\\HealthyTip2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\PTC2\\.android\\build-cache\\cbe57100f5f4286d4ce86df80abfffeee4cba29b\\output\\res\\values-v18\\values-v18.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            }
+        ]
+    }
+]
