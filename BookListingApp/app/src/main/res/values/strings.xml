@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Book Listing App</string>
+    <string name="empty_view">No books to show, write a topic related to find.</string>
+    <string name="no_connection">No Internet Connection.</string>
+    <string name="bt_search">Search</string>
+    <string name="str_forsale">For sale</string>
+    <string name="str_notforsale">Not for sale</string>
+</resources>

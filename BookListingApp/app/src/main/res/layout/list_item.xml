@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/linear_padding">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        style="@style/titleStyle"
+        tools:text="Introduction to Android Application Development" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/subtitle_text_view"
+            style="@style/subtitleStyle"
+            tools:text="Android Essentials" />
+
+        <TextView
+            android:id="@+id/author_text_view"
+            style="@style/authorStyle"
+            android:layout_height="match_parent"
+            tools:text="Joseph Annuzzi Jr." />
+    </LinearLayout>
+</LinearLayout>
