@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.perlaivet.lapazcoffeehouse.MainActivity"
+    android:orientation="vertical"
+    android:background="#8D6E63">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/realistic"
+    android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/logosection"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Café la Paz: mexican food."
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:background="#3E2723"
+        android:textColor="#EFEBE9"
+        android:layout_below="@+id/logosection"
+        />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popular in our menu:"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:background="#3E2723"
+        android:textColor="#EFEBE9"
+        android:layout_below="@+id/description"
+        />
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:layout_below="@+id/title">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      >
+    <ImageView
+        android:id="@+id/eggs"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/eggs"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="#795548"
+        android:paddingRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:text="Mexican Eggs: Sunny side up with green and red sauce."
+        android:layout_toRightOf="@+id/eggs"
+
+        />
+
+    <ImageView
+        android:id="@+id/pancakes"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pancakes"
+        android:layout_below="@+id/eggs"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="#A1887F"
+        android:paddingRight="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:text="Pancakes: With jam or jelly or maple syrup."
+        android:id="@+id/textView"
+        android:layout_below="@+id/eggs"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/pancakes" />
+    <ImageView
+        android:id="@+id/tortillabeans"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tortillabeans"
+        android:layout_below="@+id/pancakes"/>
+
+    <TextView
+        android:id="@+id/txtpancakes"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="#FFE57F"
+        android:paddingRight="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="19sp"
+        android:gravity="center"
+        android:text="Bean tortilla: Tortilla topped with beans, cheese and cream."
+        android:layout_below="@+id/pancakes"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/tortillabeans" />
+    </RelativeLayout>
+
+</ScrollView>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Open: 7–17 Address: Carr Cubitos-la Paz 101, Las Palmitas, 42094 Pachuca de Soto, Hgo. Phone: (52)7717140931"
+        android:textColor="#EFEBE9"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:padding="20sp"
+        android:background="#3E2723" />
+</RelativeLayout>
