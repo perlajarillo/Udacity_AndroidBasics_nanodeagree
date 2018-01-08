@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">TulancingoTourGuideApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_info">Info.</string>
+    <string name="category_places">Places</string>
+    <string name="category_around">Around</string>
+    <string name="category_restaurants">Food</string>
+    <string name="title_tulan">Tulancingo</string>
+    <string name="short_desc_tulan">officially Tulancingo de Bravo; Otomi: Ngu̱hmu.</string>
+    <string name="desc_tulan">Tulancingo is the second-largest city in the Mexican state of Hidalgo.</string>
+    <string name="title_location">Location </string>
+    <string name="short_desc_location">20°5′0″N 98°22′0″W </string>
+    <string name="desc_location">It is located in the southeastern part of Hidalgo state, 93 km from Mexico City. 20°5′0″N 98°22′0″W </string>
+    <string name="title_population">Population </string>
+    <string name="short_desc_population">Last known population is ≈ 151,584 </string>
+    <string name="desc_population">Last known population is ≈ 151,584. About 75% of the municipality’s population of 129,935 lives in the city proper. </string>
+    <string name="title_climate">Climate</string>
+    <string name="short_desc_climate">Temperate to cold.</string>
+    <string name="desc_climate">Temperate to cold with an annual average temperature of 14C and average rainfall of between 500 and 550 mm per year.</string>
+    <string name="title_downtown">Downtown</string>
+    <string name="short_desc_downtown">Cultural events, coffe places and stores.</string>
+    <string name="desc_downtown">If you want to drink a good coffee or just walk around to discover some free event, this is the place you need to go.</string>
+    <string name="title_market">Farmers market</string>
+    <string name="short_desc_market">Every thursday.</string>
+    <string name="desc_market">Every thursday, farmers around the 84 municipalities come to sell their organic products. This market is a big tradition in the town and lots of people visit the city to sell an buy all kind of products.</string>
+    <string name="title_train_station">Old Train Station</string>
+    <string name="short_desc_train_station">Old railway station of Tulancingo.</string>
+    <string name="desc_train_station">It is the old railway station of Tulancingo, which shows railway times of the late nineteenth and early twentieth century. In the present it is a museum that exhibits photographs of the construction of the station as well as office and accounting objects that were used at that time.</string>
+    <string name="title_murals">Murals</string>
+    <string name="short_desc_murals">Modern art in the walls of the city.</string>
+    <string name="desc_murals">Modern art is present in the walls of the city, you can just walk around the city to enjoy this painted.</string>
+    <string name="title_real">Real del Monte</string>
+    <string name="short_desc_real">Small mining town.</string>
+    <string name="desc_real">Is a small mining town, and one of the 84 municipalities of Hidalgo, in the State of Hidalgo in east-central Mexico. 54km from Tulancingo.</string>
+    <string name="title_prismas">Prismas Basálticos</string>
+    <string name="short_desc_prismas">Rock formation, Huasca de Ocampo.</string>
+    <string name="desc_prismas">The Prismas Basálticos of Santa María Regla are a rock formation on which falls a small jump that is located in the Hidalgo municipality of Huasca de Ocampo.</string>
+    <string name="title_acaxochitlan">Acaxochitlán</string>
+    <string name="short_desc_acaxochitlan">Old village, cultural groups in Mesoamerica.  </string>
+    <string name="desc_acaxochitlan">This village is very old as human settlement, occupied by various cultural groups in Mesoamerica. Most village women wear girdles from small to hold the diaper, and when they grow their skirt or petticoat, is a tradition. </string>
+    <string name="title_tejocotal">Tejocotal</string>
+    <string name="short_desc_tejocotal">Prey located close to Acaxochitlán, Hidalgo. </string>
+    <string name="desc_tejocotal">It is a prey located 12 km southeast of the Main Plaza of Acaxochitlán, Hidalgo. There are boat ride on the lake to sport fishing and ride on horseback availables.
+    </string>
+    <string name="title_sanmiguel">San Miguel Regla</string>
+    <string name="short_desc_sanmiguel">Ex Hacienda San Miguel Regla</string>
+    <string name="desc_sanmiguel">Located four km from the town of Huasca, Construction began in 1762 as a silver operation.</string>
+    <string name="title_apulco">Estación de Apulco</string>
+    <string name="short_desc_apulco">Is located in the Municipality of Metepec.</string>
+    <string name="desc_apulco">Is located in the Municipality of Metepec (in the State of Hidalgo). Popular for hot air balloon flights.</string>
+    <string name="title_colonial">El colonial</string>
+    <string name="short_desc_colonial">Variety of Mexican and International dishes. Juarez Sur 201.</string>
+    <string name="title_taho">Taho</string>
+    <string name="short_desc_taho">Breakfast &amp; Brunch Restaurant. Miguel Hidalgo 119.</string>
+    <string name="title_novo">Novo</string>
+    <string name="short_desc_novo">Res and seafood buffet. Miguel Hidalgo 112</string>
+    <string name="title_antigua">Novo</string>
+    <string name="short_desc_antigua">Italian Food &amp; Pizza. Avenida del Trabajo 118.</string>
+    <string name="title_cafe">Café del bueno</string>
+    <string name="short_desc_cafe">Coffe  &amp; Snacks. Mariano Matamoros 406.</string>
+    <string name="txt_button">Close</string>
+</resources>

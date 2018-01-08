@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#C2185B</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="tabs_text_color">#BDBDBD</color>
+    <!-- Text color when the tab is selected -->
+    <color name="tabs_text_color_selected">#FFFFFF</color>
+    <!-- Background color for the info category -->
+    <color name="category_info">#0091EA</color>
+    <!-- Background color for the info category -->
+    <color name="category_places">#880E4F</color>
+    <!-- Background color for the info category -->
+    <color name="category_around">#64DD17</color>
+    <!-- Background color for the info category -->
+    <color name="category_restaurants">#6A1B9A</color>
+</resources>

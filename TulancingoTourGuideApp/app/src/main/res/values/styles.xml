@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="tabsStyle">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="tabTextColor">@color/tabs_text_color</item>
+        <item name="tabSelectedTextColor">@color/tabs_text_color_selected</item>
+        <item name="tabIndicatorColor">@color/tabs_text_color_selected</item>
+    </style>
+
+    <style name="IconView">
+        <item name="android:layout_width">@dimen/image_size</item>
+        <item name="android:layout_height">@dimen/image_size</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="IconViewPopUp">
+        <item name="android:layout_width">@dimen/image_size_popup</item>
+        <item name="android:layout_height">@dimen/image_size_popup</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="DescriptionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/category_padding</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/size_for_text_item</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+</resources>
