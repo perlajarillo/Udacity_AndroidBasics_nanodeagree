@@ -1,0 +1,80 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">WebQuiz</string>
+    <!-- Text display for the question 1 -->
+    <string name="title_app">Web Quiz</string>
+    <string name="question1_1">The</string>
+    <string name="question1_2">is the user\'s visible area of a web page.</string>
+
+    <!-- Text display for the question 2 -->
+    <string name="question2_1">In AngularJS, the status</string>
+    <string name="question2_2">indicates that the field has been modified.</string>
+
+    <!-- Text display for the question 3 -->
+    <string name="question3">Jquery is a JSON Library?</string>
+
+    <!-- Text display for the question 4 -->
+    <string name="question4">jQuery uses CSS selectors to select elements?</string>
+
+    <!-- Text display for the question 5 -->
+    <string name="question5">Look at the following selector: $("p"). What does it select?</string>
+
+
+    <!-- Text display for the question 6 -->
+    <string name="question6">The Bootstrap grid system is based on how many columns?</string>
+
+    <!-- Text display for the question 7 -->
+    <string name="question7">In Bootstrap, which class is used to create a big box for calling extra attention?</string>
+
+    <!-- Text display for the question 8 -->
+    <string name="question8">Select the javascript frameworks</string>
+
+    <!-- Text display for the question 9 -->
+    <string name="question9">With jQuery you can fade elements in and out of visibility using:</string>
+
+
+    <!-- Text display for the question 10 -->
+    <string name="question10">Some Input fields states with AngularJS.</string>
+
+    <!-- Generic Answers -->
+    <string name="true_answer">true</string>
+    <string name="false_answer">false</string>
+
+    <!-- Answers Question 5-->
+    <string name="answer_q5_1">All p elements</string>
+    <string name="answer_q5_2">The element named p</string>
+
+    <!-- Answers Question 6-->
+    <string name="answer_q6_1">8</string>
+    <string name="answer_q6_2">12</string>
+    <string name="answer_q6_3">3</string>
+
+    <!-- Answers Question 7-->
+    <string name="answer_q7_1">.jumbotron</string>
+    <string name="answer_q7_2">.div</string>
+    <string name="answer_q7_3">.h1</string>
+
+    <!-- Answers Question 8-->
+    <string name="answer_q8_1">HTML</string>
+    <string name="answer_q8_2">JQuery</string>
+    <string name="answer_q8_3">Foundation</string>
+    <string name="answer_q8_4">CSS</string>
+    <string name="answer_q8_5">AngularJS</string>
+
+    <!-- Answers Question 9-->
+    <string name="answer_q9_1">fade()</string>
+    <string name="answer_q9_2">fadeOut()</string>
+    <string name="answer_q9_3">toggle()</string>
+    <string name="answer_q9_4">fadeToggle()</string>
+
+    <!-- Answers Question 10-->
+    <string name="answer_q10_1">$dirty</string>
+    <string name="answer_q10_2">$required</string>
+    <string name="answer_q10_3">$touched</string>
+
+    <!-- Answers Question 10-->
+    <string name="reviewButton">Review</string>
+
+    <!-- Score message-->
+    <string name="scoreMessage">Your score is: <xliff:g example="10" id="name">%d</xliff:g></string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeButton">16sp</dimen>
+    <dimen name="textSizeTitle">30sp</dimen>
+    <dimen name="textSizeEdit">12sp</dimen>
+    <dimen name="textSizeAnswer">13sp</dimen>
+    <dimen name="textSizeQuestion">15sp</dimen>
+    <!--Layout dimensions-->
+    <dimen name="heightSizeQuestion">58dp</dimen>
+    <dimen name="widthSizeEdit">80dp</dimen>
+</resources>
