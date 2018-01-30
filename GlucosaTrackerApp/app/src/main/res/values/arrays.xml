@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_moment_options">
+        <item>@string/fasting_blood_glucose</item>
+        <item>@string/post_pandrial_blood_glucose</item>
+    </string-array>
+
+</resources>

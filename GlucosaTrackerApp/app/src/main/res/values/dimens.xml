@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="layout_bottom_padding">10dp</dimen>
+    <dimen name="layout_top_padding">20dp</dimen>
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="spinner_height">48dp</dimen>
+    <dimen name="spinner_paddingRight">16dp</dimen>
+</resources>

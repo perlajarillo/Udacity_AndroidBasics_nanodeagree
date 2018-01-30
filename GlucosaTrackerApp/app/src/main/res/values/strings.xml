@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GlucosaTrackerApp</string>
+    <string name="insert_menu">Insert Glucose Measurement</string>
+    <string name="title_activity_insert">InsertActivity</string>
+    <string name="glucose_label">Glucosa level</string>
+    <string name="hint_glucosa_level">Glucose level mg/dl</string>
+    <string name="hint_measurement_moment">Moment level mg/dl</string>
+    <string name="category_measurement">Measurement</string>
+    <string name="category_moment">Moment</string>
+    <string name="hint_measurement_date">mm/dd/aaaa</string>
+    <string name="hint_measurement_time">hh:mm</string>
+    <string name="date_label">Measurement date</string>
+    <string name="time_label">Measurement time</string>
+    <string name="fasting_blood_glucose">Fasting blood glucose</string>
+    <string name="post_pandrial_blood_glucose">Post prandial blood glucose</string>
+    <string name="btn_insert">Insert</string>
+
+</resources>

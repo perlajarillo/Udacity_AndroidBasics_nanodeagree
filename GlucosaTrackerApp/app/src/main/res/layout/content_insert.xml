@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".InsertActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/layout_bottom_padding"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_glucose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/layout_top_padding">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/glucose_label" />
+
+        <!-- Glucose level -->
+        <EditText
+            android:id="@+id/edit_measurement_level"
+            style="@style/FieldStyle"
+            android:hint="@string/hint_glucosa_level"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <!-- Moment category -->
+    <LinearLayout
+        android:id="@+id/container_moment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_moment" />
+
+        <!-- Input field -->
+        <LinearLayout
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <!-- Moment drop-down spinner -->
+            <Spinner
+                android:id="@+id/spinner_moment"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/spinner_height"
+                android:paddingRight="@dimen/spinner_paddingRight"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Measurement time and date -->
+    <LinearLayout
+        android:id="@+id/container_measurement_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Date label-->
+        <TextView
+            android:id="@+id/label_measurement_date"
+            style="@style/CategoryStyle"
+            android:text="@string/date_label" />
+
+        <!-- Date field -->
+        <EditText
+            android:id="@+id/edit_measurement_date"
+            style="@style/FieldStyle"
+            android:hint="@string/hint_measurement_date"
+            android:inputType="date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container_measurement_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- Time -->
+        <TextView
+            android:id="@+id/label_measurement_time"
+            style="@style/CategoryStyle"
+            android:text="@string/time_label" />
+
+        <!-- Time field -->
+        <EditText
+            android:id="@+id/edit_measurement_time"
+            style="@style/FieldStyle"
+            android:hint="@string/hint_measurement_time"
+            android:inputType="time" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_insert_measurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_insert" />
+</LinearLayout>
